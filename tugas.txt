@@ -1,0 +1,9 @@
+Yg paham :
+
+1. HTML
+2. CSS
+
+Yg tidak paham :
+
+2. PHP
+3. JavaScript
