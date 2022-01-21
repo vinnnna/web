@@ -1,5 +1,4 @@
 <?php
-
 class Barang
 {
     private $harga; //variable global (ketika didalam class), memanggil menggunakan $this
