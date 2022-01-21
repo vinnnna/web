@@ -1,5 +1,4 @@
 <?php
-
     class Rental
     {
         public $harga;
