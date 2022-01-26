@@ -29,7 +29,6 @@ public function display()
 
 class SubStatic extends CthStatic
 {
-
 }
 
 echo "<br>";
