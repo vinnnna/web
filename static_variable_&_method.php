@@ -1,29 +1,41 @@
 <?php
 
 
-/* jika menggunakan static, kita tidak perlu menginisialisasikan 
-static mengakses dengan nilai tetap */
+/* jika menggunakan static, kita tidak perlu menginisialisasikan static mengakses dengan nilai tetap */
 
 class CthStatic
 {
-    public static $nama = "nama variable";
+    public static $nama = ["Tasya", "Kelmi", "Surya", "Kelvin"]; // [.....] = array */
 
-    /* public $index = 1;
-    public $nama = ["Tasya", "Kelmi", "Surya", "Kelvin"];    // [.....] = array */
+    public $index = 1; 
 
     public static function all()
     {
-        echo "Ini contoh function static";
+        $index = 1;
+        
+        foreach(self::$nama as $na)                              
+        {                                                  
+            echo self::$index++ ."." .$na . "<br>";
+        }
+    }
+
+public function display()
+    {
+        echo self::all();
     }
 
 
 }
 
-$obj = new CthStatic();
+class SubStatic extends CthStatic
+{
 
-echo CthStatic::$nama; //keyword static -> :: 
+}
 
 echo "<br>";
-echo CthStatic::all();
+
+$obj2 = new SubStatic();
+
+echo $obj2->display();
 
 ?>
