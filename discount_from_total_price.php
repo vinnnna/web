@@ -59,3 +59,5 @@ class Barang
 
 $barang = new Barang();
 echo "Harga Setelah Diskon: Rp. " .$barang->getTotal(jumlahJam: 5);
+
+?>
