@@ -29,3 +29,5 @@ class A
 //insialisasi class object
 $user1 = new A();
 $user1->sayHello(nama: "ha");
+
+?>
