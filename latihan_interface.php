@@ -76,3 +76,5 @@ $kendaraanUser2 = new KendaraanUser($beat1);
 $kendaraanUser1 -> startonMachine();
 echo"<br>"; 
 $kendaraanUser2 -> startonMachine();
+
+?>
