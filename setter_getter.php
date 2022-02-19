@@ -66,7 +66,7 @@ $contoh1 = new Cth2();
 
     /*$contoh1->setNama(nama: "Buku");
     $contoh1->setHarga(harga: 35000);
-
+    $contoh1->setStok(stok: 1);
 
     echo $contoh1->getNama();
     echo $contoh1->getHarga();
