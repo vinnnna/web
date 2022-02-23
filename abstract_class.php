@@ -31,4 +31,4 @@ class Book extends Product
     }
 }
 $book = new Book;
-echo $book->title("wee");
+echo $book->title("");
