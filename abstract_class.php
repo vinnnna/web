@@ -27,7 +27,8 @@ class Book extends Product
 
     public function title(string $nama) :void
     {
-        echo $this->nama;
-        // echo $this->getName();
+        echo $this->getName();
     }
 }
+$book = new Book;
+echo $book->title("wee");
